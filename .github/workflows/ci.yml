@@ -92,7 +92,7 @@ jobs:
        #   CF_GIT_BRANCH: "${{ github.event.pull_request.head.ref }}"
 
 
-    #    uses: codefresh-io/codefresh-report-image@latest
+    # #   uses: codefresh-io/codefresh-report-image@latest
       
       - name: Checkout csdp-salesdemo_applications
         uses: actions/checkout@v3

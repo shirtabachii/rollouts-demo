@@ -12,6 +12,7 @@ spec:
     http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
           serviceName: canary-demo-preview
           servicePort: 80

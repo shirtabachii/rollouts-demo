@@ -4,12 +4,11 @@ metadata:
   name: canary-demo
   annotations:
     ingress.kubernetes.io/proxy-body-size: 100M
-    kubernetes.io/ingress.class: nginx
     ingress.kubernetes.io/app-root: /
 spec:
   ingressClassName: nginx-public
   rules:
-  - host: shir-canary.rnd.sandbox.codefresh.io
+  - host: signadot-test-canary.rnd.sandbox.codefresh.io
     http:
       paths:
       - path: /
